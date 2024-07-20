@@ -37,12 +37,12 @@ app.post('/send', (req, res) => {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: 'mail.YOURDOMAIN.com',
+    host: 'https://subhadeepece13.github.io/node-contact-form/',
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: 'YOUREMAIL', // generated ethereal user
-        pass: 'YOURPASSWORD'  // generated ethereal password
+        user: 'subhadeepsannigrahiece@gmail.com', // generated ethereal user
+        pass: 'Subhadeep@7001'  // generated ethereal password
     },
     tls:{
       rejectUnauthorized:false
